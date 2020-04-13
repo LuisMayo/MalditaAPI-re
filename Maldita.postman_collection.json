@@ -1,0 +1,182 @@
+{
+	"info": {
+		"_postman_id": "d2f740d2-4c42-4804-827f-8ad83622ac68",
+		"name": "Maldita",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getKey",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend.maldita.es/api/userkey?version=1.0.0",
+					"protocol": "https",
+					"host": [
+						"backend",
+						"maldita",
+						"es"
+					],
+					"path": [
+						"api",
+						"userkey"
+					],
+					"query": [
+						{
+							"key": "version",
+							"value": "1.0.0",
+							"description": "optional"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "websiteCategories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend.maldita.es/api/websitecategories?key",
+					"protocol": "https",
+					"host": [
+						"backend",
+						"maldita",
+						"es"
+					],
+					"path": [
+						"api",
+						"websitecategories"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "",
+							"description": "optional"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "websites",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend.maldita.es/api/websites?key",
+					"protocol": "https",
+					"host": [
+						"backend",
+						"maldita",
+						"es"
+					],
+					"path": [
+						"api",
+						"websites"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "debunks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend.maldita.es/api/debunks?key",
+					"protocol": "https",
+					"host": [
+						"backend",
+						"maldita",
+						"es"
+					],
+					"path": [
+						"api",
+						"debunks"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": null,
+							"description": "options"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "urls",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend.maldita.es/api/urls?key",
+					"protocol": "https",
+					"host": [
+						"backend",
+						"maldita",
+						"es"
+					],
+					"path": [
+						"api",
+						"urls"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": null,
+							"description": "options"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "unlistedWebsitesDebunked",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://backend.maldita.es/api/unlistedwebsitedebunkscount?key",
+					"protocol": "https",
+					"host": [
+						"backend",
+						"maldita",
+						"es"
+					],
+					"path": [
+						"api",
+						"unlistedwebsitedebunkscount"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": null,
+							"description": "options"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
