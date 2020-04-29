@@ -176,6 +176,34 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "report",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mb-title\": \"test\",\n    \"mb-content\": \"test description\\n\\nhttps://test.test\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://maldita.es/reports",
+					"protocol": "https",
+					"host": [
+						"maldita",
+						"es"
+					],
+					"path": [
+						"reports"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
