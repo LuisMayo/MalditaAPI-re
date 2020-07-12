@@ -18,3 +18,6 @@ Todas las API parecen estar accesibles sin autenticación, no obstante el sistem
  - https://backend.maldita.es/api/websites : Listado de páginas que Maldita ha desmentido, incluyendo la categoría a la que pertenecen y sus desmentidos. La principal diferencia con `websitecategories` es que los bulos no tienen demasiados atributos, incluyendo sólo el id y una cadena con el título
  - https://backend.maldita.es/api/unlistedwebsitedebunkscount : URLs desmentidas por Maldita. La diferencia con `urls` es que apenas incluye ninguna información sobre los desmentidos, en `urls` al menos incluyen el ID del debunk
  - https://maldita.es/reports : Usa POST. API para informar sobre posibles bulos
+
+## Contribuir
+Cualquier contribución que desees hacer puedes abrir PR, si no sabes que hacer mira las issues, si has encontrado alguna mejora y no tienes claro si deberías hacerla o no abre una issue para que opine al respecto :)
